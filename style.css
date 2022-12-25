@@ -4,7 +4,7 @@ body
     overflow: hidden;
     margin: auto;
     background-color: black;
-    color: red;
+    color: white;
     font-size: large;
     font-weight: 700;
     display: grid;
@@ -49,6 +49,10 @@ body
 
 }
 
+.name
+{
+ font-weight: bolder;
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -64,9 +68,9 @@ body
    }
 }
 
-#merry
+/* #merry
 {
     background-color: green;
     border: solid green;
     width: 170px;
-}
+} */
